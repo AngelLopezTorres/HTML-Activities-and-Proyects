@@ -1,6 +1,7 @@
 Descripció
 
 ● Crea un document HTML amb la taula adjunta.
+
 ● Cada imatge es trobarà en una carpeta diferent i s'haurà de referenciar de la manera
 correcta, seguint l'estructura següent:
 Activitat 2.8/html/pomes.jfif. 
