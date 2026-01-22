@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen elena</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Juegos Online CIDE</h1>
+      <h2>Página donde encontrarás diferentes juegos clásicos</h2>
+    </header>
+    <nav>
+      <a href="index.html">Incio</a>
+      <a href="juegos.html">Juegos</a>
+    </nav>
+    <main>
+      <section>
+        <h2>Rellena los siguientes campos para poder jugar</h2>
+        <form action="juegos.html" method="post">
+          <label for="nombre">Nick:</label>
+          <input type="text" required />
+          <label for="edad">Edad:</label>
+          <input type="number" min="18" id="edad" name="edad" required />
+          <label for="juego">Juego:</label>
+          <select name="juego" id="idjuego" required>
+            <option value="Buscaminas">Buscaminas</option>
+            <option value="Memory">Memory</option>
+          </select>
+          <label for="idnivel">Nivel:</label>
+          <select name="nivel" id="idnivel">
+            <option value="Fácil">Fácil</option>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Díficil">Díficil</option>
+          </select>
+          <button type="submit">Jugar</button>
+        </form>
+      </section>
+      <section>
+        <details>
+          <summary><strong>Más información</strong></summary>
+          <p>
+            Si quieres obtener más información sobre los juegos, revisa este
+            video.
+          </p>
+          <iframe src="https://www.youtube.com/embed/jRgtwnF9fgk"frameborder="0" ></iframe>
+        </details>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Juegos Online CIDE</p>
+    </footer>
+  </body>
+</html>
